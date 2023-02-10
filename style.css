@@ -17,6 +17,10 @@ nav {
     align-items: center;
 }
 
+nav a {
+  text-decoration: none;
+}
+
 button {
  display: flex;
  align-items: center;
@@ -24,54 +28,48 @@ button {
  border-radius: 10px;
  border:none;
  padding: 5px;
-}
-
-button:hover {
-background-color: #FBC2B5;
-transition: 0.5s;
-cursor: pointer;
-
-}
-
-nav a {
-  text-decoration: none;
+ cursor: pointer;
 }
 
 header {
     display: flex;
     gap: 20px;
     justify-content: center;
+    margin-top: 20px;
 }
 
-.phofile {
+.imagem {
     height: 150px;
     width: 150px;
     border-radius: 100px;
 }
 
-.caixa {
+.alinhar {
     display: flex;
     align-items: center;
 }
 
 li {
     list-style: none;
-    height: 20px;
-    
-}
-ul{
-   background-color: #FBC2B5;
+    margin-bottom: 10px;
 }
 
 img {
-    height:150px;
-    width: 150px;
+    height: 200px;
+    width: 200px;
+}
+
+.centro {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 10px;
 }
 
 main {
-    display: flex;
-    justify-content: start;
-    flex-wrap: wrap;
-    width: 50%;
+    margin: 50px
 }
+
+
+
 
